@@ -1,38 +1,121 @@
+:root {}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(220, 43%, 11%);
+  ;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: hsl(220, 43%, 11%);
+}
+
+
+/* finish css resets */
+
+
+.profile {
+  width: 88px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
 .App {
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col {
+  padding: 5vmin 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hidden {
+  display: none;
+}
+
+.main__content {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: .75rem;
+  width: 80%;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.links a {
+  padding: 1em;
+  background: #ddd;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.social__icons {
+
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.social__icons *:nth-child(2) {
+  margin-left: .5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.footer__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  padding: 5em 0;
+}
+
+.footer__section img {
+  width: 15%;
+}
+
+@media (max-width:568px) {
+  .footer__section {
+    padding: 2em 0;
+    bottom: 0;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer__section img {
+    width: 50%;
   }
 }
