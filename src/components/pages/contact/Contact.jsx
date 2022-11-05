@@ -9,7 +9,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="container">
+    <div className="App container">
       <div className="contact__container">
         <div className="contact__header">
           <h1>Contact Me</h1>
@@ -68,7 +68,7 @@ const Contact = () => {
           </div>
           <div className="checkbox__container">
             <input type="checkbox" name="agree" /> You agree to providing your
-            data to Jonathan who may contact you
+            data to Ian Rioba who may contact you
           </div>
           <button type="submit" id="btn__submit">
             Send Message
