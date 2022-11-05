@@ -1,7 +1,4 @@
 import React from "react";
-import avatar from "../assets/avatar.png";
-import share from "../assets/share.png";
-import more from "../assets/more.png";
 import myprofile from "../assets/sqaured_profile.jpg"
 
 const Profile = () => {
