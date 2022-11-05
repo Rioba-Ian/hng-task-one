@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e55c479c.css",
+    "main.js": "/static/js/main.72403452.js",
+    "static/media/sqaured_profile.jpg": "/static/media/sqaured_profile.8d7de822bb4186602df2.jpg",
+    "static/media/avatar.png": "/static/media/avatar.5ff40e1b5d2b90077f44.png",
+    "static/media/slack.svg": "/static/media/slack.87ba9caeb75d37f14fe434c266c7d9c7.svg",
+    "static/media/Social icon.svg": "/static/media/Social icon.05ffca422514a5bbf3ac752e4d893c57.svg",
+    "index.html": "/index.html",
+    "main.e55c479c.css.map": "/static/css/main.e55c479c.css.map",
+    "main.72403452.js.map": "/static/js/main.72403452.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e55c479c.css",
+    "static/js/main.72403452.js"
+  ]
+}
