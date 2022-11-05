@@ -2,7 +2,7 @@
   "name": "hng-task-one",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://rioba-ian.github.io/",
+  "homepage": "https://rioba-ian.github.io/hng-task-one",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
